@@ -1,10 +1,14 @@
 source 'https://ruby.taobao.org/' 
 
 gem "sinatra"
+gem "sinatra-contrib"
 gem "mysql2"
+gem "json"
 gem "activerecord"
 gem "sinatra-activerecord"
 
+
+gem 'typhoeus'
 #upload file
 gem 'carrierwave'
 #image operate

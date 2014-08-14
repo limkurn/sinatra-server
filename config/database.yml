@@ -1,0 +1,24 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  reconect: true
+  database: sinatra_service
+  pool: 20  
+  host: "localhost"
+  username: root
+  password: root
+  wait_timeout: 5000
+  port: 3306
+
+test:
+  adapter: mysql2
+  encoding: utf8
+  reconect: true
+  database: sinatra_service_test
+  pool: 20  
+  host: "localhost"
+  username: root
+  password: root
+  wait_timeout: 5000
+  port: 3306
+
